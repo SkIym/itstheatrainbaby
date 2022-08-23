@@ -33,3 +33,13 @@ a {
     font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
+
+.mcontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+
+}
