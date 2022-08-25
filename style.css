@@ -4,6 +4,7 @@ body {
     display: flex;
     margin: 0;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -30,16 +31,96 @@ ul {
 a {
     text-decoration: none;
     color: #f9faf8;
-    font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 
 .mcontent {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .intro {
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 100px;
+    gap: 30px;
+    background: #1F2937;
+    color: #f9faf8;
+    flex-wrap: wrap;
+}
 
+.hello {
+    width: 400px;
+}
+
+.mdesc {
+    width: 40%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.mtit {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.sdesc {
+    color: #e5e7eb;
+    margin: 0;
+    font-weight: 100;
+}
+
+.bfirst {
+    margin: 10px 0;
+    padding: 7px 25px;
+    font-size: 15px;
+    background: #3882F6;
+    color: #f9faf8;
+    border: 0;
+    border-radius: 3px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 36px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subinfo {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: flex-start;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 200px;
+}
+
+.subimg {
+    height: 200px;
+}
+
+.train-desc {
+    font-weight: 100;
+    font-size: 15px;
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    margin: 10px 0;
 }
