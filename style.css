@@ -56,7 +56,7 @@ a {
 }
 
 .mdesc {
-    width: 30%;
+    width: 50%;
     display: flex;
     flex-flow: column wrap;
     align-items: flex-start;
@@ -89,6 +89,7 @@ h2 {
     text-align: center;
     padding: 20px 0;
     font-size: 36px;
+    color: #1F2937;
 }
 
 .info {
@@ -104,6 +105,7 @@ h2 {
     align-items: flex-start;
     flex-shrink: 1;
     flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
 .card {
@@ -125,4 +127,25 @@ h2 {
     font-family: 'Verdana', sans-serif;
     text-align: center;
     margin: 10px 0;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 400px;
+    background-color: #e5e7eb;
+}
+
+.blockq {
+    width: 100%;
+    font-family: "Verdana", sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author p {
+    text-align: end;
+    font-size: 20px;
+    color: #1F2937;
 }
