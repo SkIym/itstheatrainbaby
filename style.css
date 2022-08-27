@@ -132,12 +132,11 @@ h2 {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 50px 400px;
+    padding: 50px 300px;
     background-color: #e5e7eb;
 }
 
 .blockq {
-    width: 100%;
     font-family: "Verdana", sans-serif;
     font-style: italic;
     font-size: 36px;
@@ -148,4 +147,46 @@ h2 {
     text-align: end;
     font-size: 20px;
     color: #1F2937;
+}
+
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    color: #f9faf8;
+}
+
+.popcont {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px 100px;
+    border-radius: 5px;
+}
+
+.call {
+    font-size: 20px;
+    margin: 0;
+}
+
+.click {
+    font-weight: 100;
+    font-size: 15px;
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.secsign {
+    color: #f9faf8;
+    background-color: #3882F6;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
